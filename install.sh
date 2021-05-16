@@ -5,7 +5,7 @@ LF=${LF%_}
 EXTENSION_NAME=Hello
 EXTENSION_ID=hello
 COLLABORATOR=610t
-EXTENSION_DESCRIPTION="Scratch Extension Template"
+EXTENSION_DESCRIPTION="Scratch Extension Template for 610t"
 
 mkdir -p node_modules/scratch-vm/src/extensions/scratch3_${EXTENSION_ID}
 cp ${EXTENSION_ID}/scratch-vm/src/extensions/scratch3_${EXTENSION_ID}/index.js node_modules/scratch-vm/src/extensions/scratch3_${EXTENSION_ID}/
