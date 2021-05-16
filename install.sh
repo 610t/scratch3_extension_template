@@ -4,7 +4,7 @@ LF=$(printf '\\\012_')
 LF=${LF%_}
 EXTENSION_NAME=Hello
 EXTENSION_ID=hello
-COLLABORATOR=champierre
+COLLABORATOR=610t
 EXTENSION_DESCRIPTION="Scratch Extension Template"
 
 mkdir -p node_modules/scratch-vm/src/extensions/scratch3_${EXTENSION_ID}
