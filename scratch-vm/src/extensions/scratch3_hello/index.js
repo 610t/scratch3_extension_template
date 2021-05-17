@@ -24,7 +24,7 @@ class Scratch3Hello {
                     }
                 },
                 {
-                    opcode: 'alert', // <-- (1)
+                    opcode: 'alert_more', // <-- (1)
                     blockType: BlockType.COMMAND, // <-- (2)
                     text: 'more alert [TEXT]', // <-- (3)
                     arguments: { // <-- (4)
