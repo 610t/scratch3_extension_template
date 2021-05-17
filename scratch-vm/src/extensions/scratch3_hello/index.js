@@ -44,6 +44,10 @@ class Scratch3Hello {
         const text = Cast.toString(args.TEXT); // <-- (6)
         alert(text); // <-- (7)
     }
+    alert_more (args) { // <-- (5)
+        const text = Cast.toString(args.TEXT); // <-- (6)
+        alert("More "+text); // <-- (7)
+    }
 }
 
 module.exports = Scratch3Hello;
