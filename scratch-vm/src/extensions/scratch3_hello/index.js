@@ -22,9 +22,7 @@ class Scratch3Hello {
                             defaultValue: "hello"
                         }
                     }
-                }
-            ],
-            [
+                },
                 {
                     opcode: 'alert', // <-- (1)
                     blockType: BlockType.COMMAND, // <-- (2)
