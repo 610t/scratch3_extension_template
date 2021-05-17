@@ -24,6 +24,19 @@ class Scratch3Hello {
                     }
                 }
             ],
+            [
+                {
+                    opcode: 'alert', // <-- (1)
+                    blockType: BlockType.COMMAND, // <-- (2)
+                    text: 'more alert [TEXT]', // <-- (3)
+                    arguments: { // <-- (4)
+                        TEXT: {
+                            type: ArgumentType.STRING,
+                            defaultValue: "mutoh"
+                        }
+                    }
+                }
+            ],
             menus: {
             }
         };
